@@ -1,0 +1,12 @@
+sentence {
+    font-family: 'Raleway';
+    text-align: center;
+    font-size: 52;
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
