@@ -6,3 +6,10 @@
     position: fixed;
     border-radius: 500%;
 }
+
+@-webkit-keyframes particle-animation-1 {
+    100% {
+        -webkit-transform: translate3d(100vw, 100vh, 5px);
+        transform: translate3d(100vw, 100vh, 5px);
+    }
+}
