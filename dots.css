@@ -1,3 +1,8 @@
 .HTML CSS Result EDIT ON body {
     background: #ecf3f3;
 }
+
+.particle {
+    position: fixed;
+    border-radius: 500%;
+}
