@@ -13,3 +13,10 @@
         transform: translate3d(100vw, 100vh, 5px);
     }
 }
+
+@keyframes particle-animation-1 {
+    100% {
+        -webkit-transform: translate3d(100vw, 100vh, 5px);
+        transform: translate3d(100vw, 100vh, 5px);
+    }
+}
