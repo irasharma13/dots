@@ -22,3 +22,13 @@ html {
     overflow-y: auto;
     perspective: 2px;
 }
+
+.section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 5px #000;
+}
