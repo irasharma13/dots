@@ -20,3 +20,16 @@
         transform: translate3d(100vw, 100vh, 5px);
     }
 }
+
+.particle:nth-child(1) {
+    -webkit-animation: particle-animation-1 60s infinite;
+    animation: particle-animation-1 60s infinite;
+    opacity: 0.1;
+    height: 40px;
+    width: 40px;
+    -webkit-animation-delay: -0.2s;
+    animation-delay: -0.2s;
+    -webkit-transform: translate3d(60vw, 100vh, 82px);
+    transform: translate3d(69vw, 100vh, 82px);
+    background: #7726d9;
+}
