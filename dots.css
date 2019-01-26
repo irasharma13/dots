@@ -128,3 +128,16 @@
         transform: translate3d(10vw, 87vh, 58px);
     }
 }
+
+.particle:nth-child(5) {
+    -webkit-animation: particle-animation-5 60s infinite;
+    animation: particle-animation-5 60s infinite;
+    opacity: 0.92;
+    height: 40px;
+    width: 40px;
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+    -webkit-transform: translate3d(23vw, 19vh, 51px);
+    transform: translate3d(23vw, 19vh, 51px);
+    background: #262fd9;
+}
