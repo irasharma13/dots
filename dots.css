@@ -114,3 +114,17 @@
     transform: translate3d(49vw, 60vh, 22px);
     background: #b8d926;
 }
+
+@-webkit-keyframes particle-animation-5 {
+    100% {
+        -webkit-transform: translate3d(10vw, 87vh, 58px);
+        transform: translate3d(10vw, 87vh, 58px);
+    }
+}
+
+@keyframes particle-animation-5 {
+    100% {
+        -webkit-transform: translate3d(10vw, 87vh, 58px);
+        transform: translate3d(10vw, 87vh, 58px);
+    }
+}
