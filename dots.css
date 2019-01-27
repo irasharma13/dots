@@ -141,3 +141,30 @@
     transform: translate3d(23vw, 19vh, 51px);
     background: #262fd9;
 }
+
+@-webkit-keyframes particle-animation-6 {
+    100% {
+        -webkit-transform: translate3d(18vw, 81vh, 31px);
+        transform: translate3d(18vw, 81vh, 31px);
+    }
+}
+
+@keyframes particle-animation-6 {
+    100% {
+        -webkit-transform: translate3d(18vw, 81vh, 31px);
+        transform: translate3d(18vw, 81vh, 31px);
+    }
+}
+
+.particle:nth-child(6) {
+    -webkit-animation: particle-animation-6 60s infinite;
+    animation: particle-animation-6 60s infinite;
+    opacity: 0.73;
+    height: 40px;
+    width: 40px;
+    -webkit-animation-delay: -1.2s;
+    animation-delay: -1.2s;
+    -webkit-transform: translate3d(9vw, 54vh, 8px);
+    transform: translate3d(9vw, 54vh, 8px);
+    background: #a026d9;
+}
