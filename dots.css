@@ -168,3 +168,23 @@
     transform: translate3d(9vw, 54vh, 8px);
     background: #a026d9;
 }
+
+.particle:nth-child(7) {
+    -webkit-animation: particle-animation-7 60s infinite;
+    animation: particle-animation-7 60s infinite;
+    opacity: 0.05;
+    height: 30px;
+    width: 30px;
+    -webkit-animation-delay: -1.4s;
+    animation-delay: -1.4s;
+    -webkit-transform: translate3d(9vw, 30vh, 67px);
+    transform: translate3d(9vw, 30vh, 67px);
+    background: #af26d9;
+}
+
+@-webkit-keyframes particle-animation-8 {
+    100% {
+        -webkit-transform: translate3d(31vw, 13vh, 59px);
+        transform: translate3d(31vw, 13vh, 59px);
+    }
+}
