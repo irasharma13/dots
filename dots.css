@@ -222,3 +222,16 @@
         transform: translate3d(2vw, 70vh, 48px);
     }
 }
+
+.particle:nth-child(9) {
+    -webkit-animation: particle-animation-9 60s infinite;
+    animation: particle-animation-9 60s infinite;
+    opacity: 0.5;
+    height: 20px;
+    width: 20px;
+    -webkit-animation-delay: -1.8s;
+    animation-delay: -1.8s;
+    -webkit-transform: translate3d(36vw, 3vh, 92px);
+    transform: translate3d(36vw, 3vh, 92px);
+    background: #d9ac26;
+}
