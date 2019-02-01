@@ -227,6 +227,8 @@
     -webkit-animation: particle-animation-9 60s infinite;
     animation: particle-animation-9 60s infinite;
     opacity: 0.5;
+    height: 20px;
+    width: 20px;
     -webkit-animation-delay: -1.8s;
     animation-delay: -1.8s;
     -webkit-transform: translate3d(36vw, 3vh, 92px);
