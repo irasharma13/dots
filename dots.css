@@ -223,7 +223,7 @@
     }
 }
 
-.particle:nth-child(10) {
+.particle:nth-child(9) {
     -webkit-animation: particle-animation-9 60s infinite;
     animation: particle-animation-9 60s infinite;
     opacity: 0.5;
