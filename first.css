@@ -18,7 +18,6 @@ html {
 
 .wrapper {
     height: 100vh;
-    /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
     overflow-x: hidden;
     /* Enable scrolling on the page. */
     overflow-y: auto;
