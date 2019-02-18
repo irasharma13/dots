@@ -1,4 +1,4 @@
-sentence {
+.parallax::after {
     font-family: 'Raleway';
     text-align: center;
     font-size: 52;
@@ -54,17 +54,6 @@ html {
     /* Keep the image from overlapping sibling elements. */
     z-index: -1;
 }
-
-
-/* The styling for the static div. 
-
-.static {
-    background: red;
-}
-*/
-
-
-/* Sets the actual background images to adorable kitties. This part is crucial. */
 
 .bg2::after {
     background-image: url('https://placekitten.com/g/800/600');
