@@ -1,2 +1,3 @@
  # dots
 
+See dots.gif
